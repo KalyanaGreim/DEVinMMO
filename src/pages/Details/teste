@@ -1,0 +1,54 @@
+// import { useEffect, useState } from 'react';
+// import GameDetails from "../../components/GameDetails";
+
+//     export default () => {
+
+//         const[game, setGame] = useState([]);
+//         const [loading, setLoading] = useState(false);
+      
+//         const getCard = async () => {
+//           setGame([]);
+//           setLoading(true);
+      
+//           let result = await fetch("https://mmo-games.p.rapidapi.com/game?id=452", {
+//             "method": "GET",
+//             "headers": {
+//               "x-rapidapi-host": "mmo-games.p.rapidapi.com",
+//               "x-rapidapi-key": "4e4c14d254mshc8a046b3f04dbb1p1cbaf4jsnac0d0b8dc716",
+//             },
+//           });
+//           let json = await result.json();
+      
+//           setLoading(false);
+//             if(json.error === ''){
+//               setGame( json.card);
+//             } else {
+//               alert( json.error );
+//             }
+      
+          
+//         };
+      
+//         useEffect(()=>{
+//           getCard();
+//         }, []);
+      
+      
+//         return(
+//           <div>
+//             <h1>Lista de games</h1>
+      
+//             <button onClick={getCard}>Atualizar Lista</button>
+      
+//             <hr/>
+      
+//             {loading === true &&
+//             <h2>Carregando...</h2>            
+//             } 
+
+//             <GameDetails title={game.title} description={game.short_description} 
+//             thumbnail={game.thumbnail} genre={game.genre} platform={game.platform} 
+//             publisher={game.publisher} screenshots={game.screenshots} />        
+//           </div>
+//         );
+//     }
