@@ -1,0 +1,215 @@
+/* Início */
+
+.primeira-pagina{
+  margin: 150px;
+  padding: 100px;
+  /* width: 800px;
+  height: 300px; */
+  border-radius: 15px;
+  border: 1px solid black;
+  background-color: #7B68EE;  
+}
+.title-primeiro{
+  font-size: 30px;
+  /* background-color: rgb(243, 11, 3);
+  border-radius: 50px;
+  width:300px;
+  height: 70px;
+  padding: 20px;
+  padding-top: 35px; */
+}
+
+footer{
+  
+  margin-top: 100px;
+}
+body{
+  margin: 50px;
+  
+}
+
+button{
+  align-items: flex-end;
+
+}
+.list-inicio { display: inline; text-decoration: none;}
+.list-inicio {  
+  
+  list-style: none;
+  /* display: flex; */
+  padding: 5px 30px;
+  display: inline-block;
+  background-color:lime;
+  text-decoration: none;
+  border-bottom:3px solid #1f0038;
+  border-radius: 10px;
+  /* align-items: center; */
+  margin:10px;
+  margin-right: 50px;
+  
+}
+.list-inicio a:hover {
+  background-color:#6d536b;
+  border-bottom:3px solid #774670;
+}
+.list-inicio-ul, .list-inicio {
+	list-style: none;
+}
+
+/* Titulo de cada pagina */
+.marca{
+  background-color:  #7B68EE;
+  text-align: center;
+  margin:0px;
+  
+}
+
+
+/* Subtitulo */
+h3 {
+  text-align: center;
+}
+.sub-title{
+  background-color: lime;
+  margin-top: 0px;
+}
+
+/* caixa de busca */
+.search-box {
+  padding: 5px;
+  border-radius: 10px;
+  width: 700px;
+  border:rgb(224, 201, 201) solid 1px;
+
+}
+
+/* botao de retorno  */
+.component-inicio{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: lime;
+  border-radius: 45px;
+  position: relative;  
+  padding: 10px;
+}
+#mostrar{
+  display: none;
+  font-size: 8px;
+  position: inherit;
+  margin: 5px;
+  
+}
+#passar-mouse:hover #mostrar{
+  display:block;
+  }
+
+/* cards noticias e jogos  */
+.container {
+  float: left;
+  background-color: rgb(255, 220, 255);
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  margin-left: 50px;
+  border-radius: 15px;
+  border: 1px solid black;
+  align-items: center;
+  
+}
+
+
+button{
+  margin-left: 20px;
+  padding: 5px;
+  background-color: rgb(180, 214, 180);
+  border-radius: 7px;
+  border: 1px solid black;
+  
+}
+
+/* cards games */
+
+.img-card {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  border-color: black;
+  border: 1px solid black;
+  margin: 20px;
+  text-align: justify;
+
+}
+.description, .publisher-platform-cards {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: black;
+  
+}
+
+.description{
+  text-align: justify;
+  text-align: center;
+}
+.title-cards{
+  margin: 20px;
+}
+
+.date-cards{
+  margin-left: 20px;
+  font-size: 11px;
+}
+
+
+
+/* pagina de detalhes: */
+.img-details{
+  width: 500px;
+  height: 300px;
+  border-radius: 20px;  
+}
+.title-details{
+  font-size: 30px;
+  background-color: lightblue;
+  border-radius: 10px;
+}
+.form-comments{
+  text-align: center;
+  background-color: rgb(146, 130, 238);
+  width: 500px;
+  padding: 100px;
+  border-radius: 20px;
+
+}
+.name-form, .email-form, .comments-form{
+  border-radius: 10px;
+  padding: 15px;
+  margin: 5px;
+}
+.btn-form{
+  padding: 10px;
+  margin: 15px;
+}
+
+.img-item{
+  width: 500px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.details-page{
+  background-color: rgb(146, 130, 238);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.all-comments{
+  margin: 20px;
+  background-color: lawngreen;
+  border-radius: 10px;
+}
