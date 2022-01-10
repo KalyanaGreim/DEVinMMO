@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import GameCard from "../../components/GameCards";
 import '../../App.css'
-import Header from "../../components/Header";
+import Inicio from "../../components/Inicio";
 import Marca from "../../components/Marca";
 
 
@@ -32,12 +32,14 @@ const Games = () => {
 
     return (
         <>
-        <Header/>
+        <Inicio/>
         <Marca/>
         <h3 className="sub-title">Todos os jogos</h3>
-        <center><div className="container-search-box">
-            <input type="text" className="search-box" onChange={handleChange} placeholder="Buscar..."/>
-        </div></center>
+        <center>
+            <div className="container-search-box">
+                <input type="text" className="search-box" onChange={handleChange} placeholder="Buscar..."/>
+            </div>
+        </center>
 
         <div className="">
             
