@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../App.css";
 
-const Header = () => {
+const Inicio = () => {
   return (
     <>
     <div>
@@ -18,4 +18,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Inicio;

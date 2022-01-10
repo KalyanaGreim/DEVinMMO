@@ -5,7 +5,7 @@ const Marca = () => {
   return (
     <>
     <div className="marca">
-        <h1>DEVinMMo</h1>
+        <h1>DEVinMMO</h1>
       
       </div>
     </>

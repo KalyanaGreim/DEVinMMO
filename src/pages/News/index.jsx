@@ -1,6 +1,6 @@
 import { useEffect, useState} from "react";
 import NewsCard from "../../components/NewsCard";
-import Header from "../../components/Header";
+import Inicio from "../../components/Inicio";
 import '../../App.css'
 import Marca from "../../components/Marca";
 
@@ -33,7 +33,7 @@ const News = () => {
    
     return (
         <>
-        <Header/>      
+        <Inicio/>      
         
         <Marca/>
         <h3 className="sub-title">Principais notícias</h3>
